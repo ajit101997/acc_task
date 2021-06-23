@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.bg-light{
+    background-color: rgb(19, 26, 39) !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.header li a{
+    color: #fff;
+}
+.dropdown-item,.btn_header{
+    color: #fff;
+    background-color: rgb(3,11,23);
+}
+.dropdown-item:hover{
+    color: #fff;
+    background-color: rgb(19, 26, 39) ;
+
+}
+.btn:not(:disabled):not(.disabled) {
+    padding: 0px 12px;
+}
+
+.slider .container{
+    background-color: rgb(3,11,23);
+}
+.slider{
+    background-color: rgb(19, 26, 39) ;
+}
+.slider .col-xl-8{
+    padding: 0px !important;
+}
+.slider img{
+    border-radius: 10px;
+}
+.slider .col-xl-4{
+    color: #fff;
+    margin-top: 60px;
+    padding: 20px;
+}
+.content{
+    color: #fff;
+    background-color: rgb(12,17,27);
+}
+.content img{
+    border-radius: 5px;
+}
+.footer ul{
+    padding: 0px !important;
+    list-style: none;
+}
+.footer{
+    color: #fff;
+    background-color: rgb(3,11,23);
+    padding-top: 50px;
+}
+.footer li{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.footer li:hover{
+    color: rgb(0,123,255);
+}
+.footer i{
+    font-size: 50px;
+    padding: 10px;
+}

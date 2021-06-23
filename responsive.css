@@ -1,0 +1,14 @@
+@media screen and (max-width:574px){
+    .slider img{
+        margin-top: 100px;
+    }
+    .slider .col-xl-4{
+           font-size: 13px;
+    }
+   .footer i{
+       font-size: 20px;
+   }
+   .footer .col-xl-6 p{
+       font-size: 15px;
+   }
+}
